@@ -1,0 +1,354 @@
+
+body{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f6f6;
+    position: relative;
+}
+.topleft{
+    font-size: 13px;
+    color: black  
+}
+.topright{
+    
+    position: relative;
+    /* border: 2px solid black; */
+    height: 20%;
+    top: 0;
+    left: 0;
+}
+
+.fa-pannier{
+    
+    color: rgb(238, 237, 229);
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    position: relative;
+    margin: 3px ;
+}
+.Panier, .Somme , .bienvenue{
+    font-weight: bold;
+    font-size: large;
+    color: #504b30;
+    margin: 3px ;
+}
+.register , .login{
+    background-color:  #f1cf15;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.welcome{
+    display: flex;
+}
+.welcome-text{
+    font-size: x-large;
+    color: #f1cf15;
+}
+.logo-top{
+    padding: 30px 0 20px 0;
+    display: inline;
+   
+}
+.img-telstore{
+    width:25%;
+    height:43px;
+}
+.shearch{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: 2px solid rgb(160, 133, 61);
+    width: 50%;
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+.slideshow{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    border-top: 2px solid rgb(160, 133, 61);
+}
+
+.button {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    background-color:#f1cf15;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.img{
+    display: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.right {
+    position: absolute;
+    top: 45%;
+    right: 0px;
+
+}
+
+.left{
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.ItelP38{
+    width: 350px;
+    height: 280px;
+    
+}
+.current-price{
+    font-weight: bold;
+    color: rgb(71, 131, 165);
+    margin-left: 5px;
+    
+}
+.smartphone{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 411px;
+    position: relative;
+    display: block;
+    color: #747474;
+    margin: 30px;
+    
+}
+.smartphone:hover{
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 23%);
+    
+}
+
+.lamarque{
+    color: #080807;
+    font-weight: bold;
+}
+.lamarque:hover{
+    color:#f39d72;
+    text-decoration: none;
+}
+
+.fa-regular{
+    position: absolute;
+    bottom: 10px;
+}
+
+.fa-heart{
+    color: #f1cf15;
+    position: absolute;
+    bottom: 10px;
+}
+
+.fa-cart-shopping {
+    background-color: #006eff;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    -moz-transition: width 2s;
+    -ms-transition: width 2s;
+    -o-transition: width 2s;
+}
+
+.fa-cart-shopping:hover{
+    box-shadow: 20px 20px 50px 0 rgba(167, 52, 52, 0.23);
+}
+
+.discount-amount{
+    background-color: #f39d72;
+    color: #fff;
+    font-size: larger;
+}
+.mobiles{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   
+}
+
+.loup{
+    color: #f1cf15;
+    font-size: xx-large;
+    padding-left:10px ;
+}
+
+@media screen and (max-width: 1380px) {
+    body{ 
+        display: block;
+    }
+    .mobiles{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    @media screen and (max-width: 915px){
+        .mobiles{
+            display: block;
+        }
+    
+    }
+}   
+
+h2{
+    color:rgb(160, 133, 61);
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    background-color: #080807;
+
+
+}
+.fa-brands{
+    margin: 10px;
+    padding: 20 px;
+    
+}
+
+.fglobal{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(194, 135, 46);
+    width: 100%;
+
+}
+.para{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding :10px 30px ;
+    margin:   10px;
+    text-align: center;
+    opacity: 0.5;
+    text-align: justify;
+}
+
+.btn-submit , .btn-sub{
+    background-color: #006eff;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 10px 5px;
+    
+}
+
+.Quant{
+    width: 30px;
+    font-weight: bold;
+    border: none;
+    
+}
+
+.btn-outline-light{
+    background-color:  #eeeeee;
+    color: rgb(43, 37, 37);
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.finalPrix{
+    width: 50px;
+    font-weight: bold;
+    border: none;
+    background-color:#f8f6f6; ;
+
+}
+.prix{
+    font-weight: bold;
+
+}
+/* css javascript */
+.inscription{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(221, 185, 185);
+    display: none;
+    
+}
+
+
+.sousinscri{
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 70px;
+    margin-left: 260px;
+  
+ 
+}
+.active{
+    display: block;
+}
+.error{
+    color: brown;
+    font-size: larger;
+}
+
